@@ -208,7 +208,7 @@ img {
   justify-content: center;
 }
 
-#tab-2-content .tab-2content-top{
+#tab-2-content .tab-2-content-top{
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap:1rem;
@@ -269,5 +269,10 @@ img {
   opacity: 0;
 }
 
+.show{
+  display:block !important;
+  opacity: 1 !important;
+  transition: all 1000 ease-in;
+}
 
   
